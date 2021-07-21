@@ -1,0 +1,22 @@
+name: 'user-web'
+port: 8021
+user_srv: # 这个是底层的grpc服务
+  host: '10.114.21.16'
+  port: 50051
+  name: 'user-srv'
+
+jwt:
+  key: 'Xv&csTxKFwO6mWdHpjajnzFcY7n0Eaa^'
+
+sms:
+  key: 'LTAI4FzGkwzJyrKfCex9kpP1'
+  secrect: 'r5aWSxybxkuT4ROcwpRqqusXtcwxt5'
+
+redis:
+  host: '127.0.0.1'
+  port: 6379
+  expire: 300
+
+consul:
+  host: '10.114.21.16' # 这个是中层的web服务（提供http服务）
+  port: 8500

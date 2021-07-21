@@ -1,0 +1,17 @@
+{
+  "name": "goods-web",
+  "host": "10.114.21.16",
+  "port": 8322,
+  "goods_srv": {
+    "host": "10.114.21.16",
+    "port": 50051,
+    "name": "goods-srv"
+  },
+  "jwt": {
+    "key": "Xv&csTxKFwO6mWdHpjajnzFcY7n0Eaa^"
+  },
+  "consul": {
+    "host": "10.114.21.16",
+    "port": 8500
+  }
+}
